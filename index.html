@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>%SITE_TITLE%</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta name="description" content="Latest SAP tech news and free courses, auto-updated daily." />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>%SITE_TITLE%</h1>
+        <p class="tagline">%TAGLINE%</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section>
+        <h2>Latest SAP Technology Highlights</h2>
+        <div class="grid">
+          %NEWS_CARDS%
+        </div>
+      </section>
+
+      <section>
+        <h2>Free SAP Courses</h2>
+        <div class="grid">
+          %COURSE_CARDS%
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>Designed by <strong>%OWNER_NAME%</strong> • 
+          <a href="mailto:%OWNER_EMAIL%">%OWNER_EMAIL%</a> • 
+          <a target="_blank" rel="noopener" href="%OWNER_LINKEDIN%">LinkedIn</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
